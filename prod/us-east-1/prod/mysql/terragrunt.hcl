@@ -16,6 +16,7 @@ include "root" {
 
 # Include the envcommon configuration for the component. The envcommon configuration contains settings that are common
 # for the component across all environments.
+# insert some Change
 include "envcommon" {
   path = "${dirname(find_in_parent_folders())}/_envcommon/mysql.hcl"
 }
